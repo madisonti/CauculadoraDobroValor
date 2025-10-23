@@ -38,34 +38,3 @@ setlocale(LC_ALL, "pt_BR.UTF-8");
 
     return 0;
 }
-🪜 Etapas do Programa
-Inclusão das bibliotecas — Importa as funções necessárias para entrada, saída e manipulação de dados.
-
-Configuração da linguagem — setlocale(LC_ALL, "pt_BR.UTF-8"); permite acentuação.
-
-Entrada de dados — scanf() captura o número digitado.
-
-Processamento — Multiplica o número por 2.
-
-Saída — Exibe o resultado formatado.
-
-⚙️ Exemplo de Execução
-Entrada:
-
-yaml
-Copiar código
-Digite um número para verificar o seu dobro: 7
-Saída:
-
-mathematica
-Copiar código
-O dobro de 7.00 é 14.00
-💡 Dicas Didáticas
-
-Utilize %.2f para limitar as casas decimais.
-
-Use nomes de variáveis claros, como numero e dobro.
-
-setlocale() é útil para programas em português.
-
-Finalize o programa com return 0; para indicar execução bem-sucedida.
